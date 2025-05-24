@@ -1,0 +1,48 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: marriage-images-web-ingress
+  namespace: prod
+  annotations:
+    traefik.ingress.kubernetes.io/router.middlewares: default-redirect-https@kubernetescrd
+    traefik.ingress.kubernetes.io/router.entrypoints: web
+spec:
+  ingressClassName: nginx
+  rules:
+    - host: photos.aleksandramateusz.pl
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: marriage-images-service
+                port:
+                  number: 80
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: marriage-images-web-ingress
+  namespace: prod
+  annotations:
+    cert-manager.io/cluster-issuer: letsencrypt-dns-production
+    traefik.ingress.kubernetes.io/router.tls: 'true'
+    traefik.ingress.kubernetes.io/router.entrypoints: websecure
+spec:
+  ingressClassName: nginx
+  tls:
+    - hosts:
+        - photos.aleksandramateusz.pl
+      secretName: marriage-images-tls
+  rules:
+    - host: photos.aleksandramateusz.pl
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: marriage-images-service
+                port:
+                  number: 80

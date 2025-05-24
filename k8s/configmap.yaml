@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: marriage-images-config
+  namespace: prod
+data:
+  R2_BUCKET_NAME: marriage-images
+  R2_PUBLIC_URL: 'https://62ee7c0bb562d876a7cc6e8f9f751166.eu.r2.cloudflarestorage.com/'
+  NEXT_PUBLIC_APP_URL: 'https://photos.aleksandramateusz.pl'
+  NODE_ENV: production

@@ -1,0 +1,63 @@
+{
+  "RootLayout": {
+    "home_link": "Home",
+    "upload_link": "Upload Photo",
+    "gallery_link": "Gallery"
+  },
+  "BaseTemplate": {
+    "description": "Share your wedding memories with us",
+    "made_with": "Made with <author></author> for our special day"
+  },
+  "Index": {
+    "meta_title": "Wedding Photo Upload",
+    "meta_description": "Share your wedding photos with the happy couple",
+    "hero_title": "Share Your Memories",
+    "hero_subtitle": "Upload photos from our wedding",
+    "upload_button": "Upload Photos",
+    "view_gallery": "View Gallery",
+    "how_it_works": "How it works",
+    "step1_title": "Take Photos",
+    "step1_desc": "Capture beautiful moments during the wedding",
+    "step2_title": "Upload",
+    "step2_desc": "Click upload and select your photos",
+    "step3_title": "Share",
+    "step3_desc": "Your photos will be added to our gallery"
+  },
+  "Upload": {
+    "meta_title": "Upload Photos",
+    "meta_description": "Upload your wedding photos",
+    "page_title": "Upload Your Photos",
+    "select_files": "Select files or drag and drop",
+    "or_drag": "or drag and drop here",
+    "accepted_formats": "Accepted formats: JPG, PNG, HEIC (max 50MB)",
+    "your_name": "Your name (optional)",
+    "your_name_placeholder": "Enter your name",
+    "description": "Description (optional)",
+    "description_placeholder": "Add a message or description",
+    "uploading": "Uploading...",
+    "upload_more": "Upload More Photos",
+    "upload_success": "Photos uploaded successfully!",
+    "upload_error": "Error uploading photos. Please try again.",
+    "file_too_large": "File is too large. Maximum size is 50MB.",
+    "invalid_format": "Invalid file format. Please use JPG, PNG, or HEIC.",
+    "upload_button": "Upload Photos",
+    "files_selected": "{count} files selected"
+  },
+  "Gallery": {
+    "meta_title": "Wedding Gallery",
+    "meta_description": "View wedding photos",
+    "page_title": "Photo Gallery",
+    "coming_soon": "Gallery coming soon",
+    "loading": "Loading photos...",
+    "no_photos": "No photos yet. Be the first to upload!",
+    "uploaded_by": "Uploaded by {name}",
+    "anonymous": "Guest"
+  },
+  "Common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "try_again": "Try again",
+    "back": "Back",
+    "close": "Close"
+  }
+}

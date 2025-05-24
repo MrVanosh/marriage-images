@@ -1,0 +1,63 @@
+{
+  "RootLayout": {
+    "home_link": "Strona główna",
+    "upload_link": "Dodaj zdjęcie",
+    "gallery_link": "Galeria"
+  },
+  "BaseTemplate": {
+    "description": "Podziel się z nami wspomnieniami z naszego ślubu",
+    "made_with": "Stworzone z <author></author> na nasz wyjątkowy dzień"
+  },
+  "Index": {
+    "meta_title": "Dodawanie zdjęć ślubnych",
+    "meta_description": "Podziel się zdjęciami z naszego ślubu",
+    "hero_title": "Podziel się wspomnieniami",
+    "hero_subtitle": "Dodaj zdjęcia z naszego ślubu",
+    "upload_button": "Dodaj zdjęcia",
+    "view_gallery": "Zobacz galerię",
+    "how_it_works": "Jak to działa",
+    "step1_title": "Rób zdjęcia",
+    "step1_desc": "Uchwyć piękne chwile podczas ślubu",
+    "step2_title": "Prześlij",
+    "step2_desc": "Kliknij przycisk i wybierz swoje zdjęcia",
+    "step3_title": "Udostępnij",
+    "step3_desc": "Twoje zdjęcia zostaną dodane do naszej galerii"
+  },
+  "Upload": {
+    "meta_title": "Dodaj zdjęcia",
+    "meta_description": "Prześlij swoje zdjęcia ślubne",
+    "page_title": "Dodaj swoje zdjęcia",
+    "select_files": "Wybierz pliki lub przeciągnij i upuść",
+    "or_drag": "lub przeciągnij i upuść tutaj",
+    "accepted_formats": "Akceptowane formaty: JPG, PNG, HEIC (maks. 50MB)",
+    "your_name": "Twoje imię (opcjonalnie)",
+    "your_name_placeholder": "Wpisz swoje imię",
+    "description": "Opis (opcjonalnie)",
+    "description_placeholder": "Dodaj wiadomość lub opis",
+    "uploading": "Przesyłanie...",
+    "upload_more": "Dodaj więcej zdjęć",
+    "upload_success": "Zdjęcia przesłane pomyślnie!",
+    "upload_error": "Błąd podczas przesyłania. Spróbuj ponownie.",
+    "file_too_large": "Plik jest za duży. Maksymalny rozmiar to 50MB.",
+    "invalid_format": "Nieprawidłowy format pliku. Użyj JPG, PNG lub HEIC.",
+    "upload_button": "Prześlij zdjęcia",
+    "files_selected": "Wybrano {count} plików"
+  },
+  "Gallery": {
+    "meta_title": "Galeria ślubna",
+    "meta_description": "Zobacz zdjęcia ślubne",
+    "page_title": "Galeria zdjęć",
+    "coming_soon": "Galeria wkrótce",
+    "loading": "Ładowanie zdjęć...",
+    "no_photos": "Brak zdjęć. Bądź pierwszy!",
+    "uploaded_by": "Dodane przez {name}",
+    "anonymous": "Gość"
+  },
+  "Common": {
+    "loading": "Ładowanie...",
+    "error": "Coś poszło nie tak",
+    "try_again": "Spróbuj ponownie",
+    "back": "Wstecz",
+    "close": "Zamknij"
+  }
+}
