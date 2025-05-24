@@ -1,3 +1,11 @@
+# 1.0.0 (2025-05-24)
+
+
+### Features
+
+* init ([bea831a](https://github.com/MrVanosh/marriage-images/commit/bea831a010c9bf745bc4af593c22710bf6e275ce))
+* init ([b1433b3](https://github.com/MrVanosh/marriage-images/commit/b1433b39b137bde06747a0387f85102cf6f47dab))
+
 ## [3.67.2](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.67.1...v3.67.2) (2025-05-09)
 
 
